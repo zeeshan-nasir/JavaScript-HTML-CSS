@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(206, 219, 240, 0.548);
+    line-height: 1.6;
+}
+
+h1 {
+    margin-top: 80px;
+    letter-spacing: 2px;
+    margin-bottom: -2px;
+    text-align: center;
+    min-width: 210px;
+}
+
+hr {
+    width: 130px;
+    border: 2px solid rgb(177, 128, 223);
+    background-color: rgb(177, 128, 223);
+}
+
+
+.container {
+    border: 1px rgb(228, 227, 227) solid;
+    padding: 15px;
+    width: 35%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(173, 165, 165);
+    text-align: center;
+    min-width: 210px;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+#name {
+    margin-top: -1px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#job {
+    margin-top: -18px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(177, 128, 223);
+    margin-bottom: -5px;
+}
+
+#desc {
+    min-height: 100px;
+}
+
+#leftimg {
+    width: 15px;
+    height: 15px;
+}
+
+#left {
+    border: none;
+    background-color: white;
+    margin-bottom: 7px;
+    margin-top: -1px;
+    width: 30px;
+}
+
+#left:hover {
+    border: 1px solid rgb(223, 194, 250);
+    border-radius: 15px;
+}
+
+#rightimg {
+    width: 15px;
+    height: 15px;
+}
+
+#right {
+    border: none;
+    background-color: white;
+    margin-bottom: 7px;
+    width: 30px;
+}
+
+#right:hover {
+    border: 1px solid rgb(223, 194, 250);
+    border-radius: 15px;
+}
+
+#random {
+    border: 1px solid rgb(189, 124, 250);
+    border-radius: 10px;
+    background-color: rgb(223, 194, 250);
+    padding: 4px;    
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+#random:hover {
+    border: 1px solid rgb(133, 13, 245);
+}
+
+.buttons {
+    height: 30px;
+}
